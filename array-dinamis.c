@@ -12,9 +12,9 @@ typedef struct {
   int MaxEl;
 } TabInt;
 
-void MakeEmpty(TabInt *T){
+void MakeEmpty(TabInt *T, int MaxElemen){
   (*T).Neff = 0;
-  (*T).MaxEl = 100;
+  (*T).MaxEl = MaxElemen;
   (*T).TI = (ElType *) malloc ((*T).MaxEl * sizeof(ElType));
 }
 
@@ -57,4 +57,10 @@ boolean IsEmpty(TabInt T){
 
 boolean IsFull(TabInt T){
     return (T.Neff == T.MaxEl);
+}
+
+void delete(TabInt *T){
+    (*T).MaxEl = 0;
+    (*T).Neff = 0;
+    free((*T).TI);
 }
