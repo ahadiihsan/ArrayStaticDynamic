@@ -4,6 +4,9 @@ Perbandingan Primitif Array Static dengan Array Dynamic
 
 primitif yang perlu diberikan perbedaannya
 
+## JUNDU NGERJAIN KONSTRUKTOR, SELEKTOR, TES INDEKS, TES KOSONG/PENUH ##
+## AHADI NGERJAIN PRIMITIF LAIN, NYATUIN SEMUANYA KE PDF, DAN UPLOAD HASILNYA KE stei.kuliah ## 
+
 //Konstruktor
 MakeEmpty
 
